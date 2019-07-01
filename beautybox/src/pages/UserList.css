@@ -1,0 +1,60 @@
+section#user-list header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#user-list {
+    background-color: #ffffff;
+    font-family: brasley-demibold;
+    font-size: 12px;
+    line-height: 4.3em;
+    color: #695B66;
+    margin-left: 20%;
+    table-layout: fixed;
+    text-align: center;
+
+
+}
+#user-list td{
+    background-color: #F4F4F4;
+    border-radius: 2px;
+    vertical-align:middle;
+}
+#user-list tr{
+    background-color: #F4F4F4;
+    border: 0;
+    vertical-align:middle;
+}
+tbody tr { 
+    height:48px; 
+    border:0; 
+}
+  
+#user-list table{
+    width: 910px;
+    height: 45px;
+    border-collapse: collapse; 
+    
+}
+th{
+    text-align: center ;
+}
+#user-list footer{
+   margin-left: -20%;
+    
+}
+.divLupa h1{
+    float: left;
+}
+.divLupa {
+    margin-left: -110px;
+}
+.divLupa img{
+    margin-top: -30px;
+    line-height: 1%;
+}
+tbody {
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

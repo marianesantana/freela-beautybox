@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "bison";
+    src: url(./assets/fonts/Bison/Bison-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+  }
+@font-face {
+    font-family: "brasley";
+    src: url(./assets/fonts/Brasley/Brasley-Bold.otf);
+    font-weight: bold;
+  }
+@font-face {
+    font-family: "brasley-medium";
+    src: url(./assets/fonts/Brasley/Brasley-Medium.otf);
+    font-weight: bold;
+  }
+@font-face {
+    font-family: "brasley-regular";
+    src: url(./assets/fonts/Brasley/Brasley-Regular.otf);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: "brasley-demibold";
+    src: url(./assets/fonts/Brasley/Brasley-SemiBold.otf);
+    font-weight: bold;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+    font: 14px Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
