@@ -5,7 +5,7 @@
 .container {
     padding: 16px;
   }
-.content-area {
+#content-area {
     background-color: #F4F4F4;
     margin: -350px 220px 22px 600px;
     border: none;
@@ -17,8 +17,10 @@
     margin-bottom: 2%;
     padding-right: 2%;
     padding-left: 29px;
+    width: 564px;
+    height: 245px;
 }
-.content-area input{
+#content-area input{
     padding-right: 2%;
     padding-left: 29px;
 }
@@ -116,3 +118,16 @@ input.apple-switch:checked:after {
     left: 20px;
     box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
 }   
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  padding: 20px;
+}
+.column {
+  position: absolute;
+  background-color:transparent;
+
+}
