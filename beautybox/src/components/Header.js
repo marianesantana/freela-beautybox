@@ -1,20 +1,28 @@
-import React from 'react';
+import React, { Component }from 'react';
 import './Header.css'
 // import { Link } from 'react-router-dom';
-import logout from "../assets/images/arrow.svg"
+import search from "../assets/images/search.svg"
 import './Header.css'
+import beautybox from '../assets/images/beautybox.svg'
+import { withRouter } from 'react-router-dom'
 
-export default function Header() {
+class Header extends Component {
+  render() {
+    if (this.props.location.pathname === '/') {
+      return null
+    } 
   return (
       <header id="main-header">
           <div className="header-content">
-            <h1 className='content-logo'>beautybox</h1>  
+            <img className='content-logo' src={beautybox}></img>  
         </div>
         <div className="right-content">
-          <a>Hello, admin!</a>
-          <img src={logout} alt="loupe"></img>
+          <a href>Hello, admin!</a>
+          <img src={search} alt="search"></img>
         </div>
       </header>
-     
   );
+  }
 }
+
+export default withRouter(Header)

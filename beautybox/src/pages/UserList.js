@@ -10,6 +10,10 @@ import line from '../assets/images/Line 500.svg'
 import th from '../assets/images/trocinho.svg'
 
 class UserList extends Component {
+    constructor(){
+        super();
+
+    }
     state = {show: false};
 
     showModal = () => {
@@ -18,10 +22,7 @@ class UserList extends Component {
     hideModal = () => {
         this.setState({ show: false });
     }
-    // showAnotherModal = () => {
-    //     this.setState({ show:true });
-    // };
-    
+   
     render() {
         return (
             <section id="user-list">
@@ -183,6 +184,7 @@ class UserList extends Component {
 }
 const Modal = ({ handleClose, show }) => {
     const showHideClassName = show ? 'modal display-block' : 'modal display-none';
+    
   
     return (
       <div className={showHideClassName}>
@@ -191,8 +193,7 @@ const Modal = ({ handleClose, show }) => {
             <p>Você deseja remover o usuário selecionado? </p>
             <hr></hr>
             <button href="" onClick={handleClose}> Cancelar </button>
-            {/* <button href="" onClick={this.showAnotherModal}> Confirmar </button> */}
-            {/* <AnotherModal show={this.state.show} handleClose={this.hideModal} /> */}
+            <button href="/" > Confirmar </button>
 
 
         </section>

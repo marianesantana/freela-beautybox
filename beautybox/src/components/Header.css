@@ -1,67 +1,46 @@
-/* header#main-header {
-    background-color: #fff;
-    height: 72px;
-    border-bottom: 1px solid #ddd;
-    
-}
-header#main-header .header-content {
-    width: 1470px;
-    margin: 0 auto;
-    height: 72px;
-    padding: 0 30px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #F4F4F4;
-}
 
-header#main-header .header-content h1{
-    background-color: #F4F4F4;
-
-    font-family: bison;
-    color: #98C7BC;
-}
-header#main-header .header-content h5{
-    background-color: #F4F4F4;
-
-    font-family: brasley;
-    color: #3F303D;
-    font-size: 14px;
-
-} */
 *{
-  background-color: #f4f4f4 
+  background-color: #F4F4F4 
 }
 
 header#main-header {
-    background-color: #f4f4f4;
+    background-color: #F4F4F4;
     overflow: hidden;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #F4F4F4;
     padding: 20px;
+    width: 1499px;
+    height: 109px;
 }
 
-header.right-content {
-  justify-content: space-between
-
-}
-
-/* Style the links inside the navigation bar */
-header#main-header .header-content h1 {
-  float: left;
-  font-family: bison;
-  color: #98C7BC;
-  font: size 1.5;
-  letter-spacing: 7px;
-  margin-left: 200px;
-  font-style: bold;
-
+.header-content img {
+  background-color: #F4F4F4;
+  margin-left:220px;
+  margin-top: 28px;
 }
 .right-content {
   float: right;
   margin-top: 10px;
-  justify-content: space-between;
+  background-color: #F4F4F4;
+  justify-content: space-between
+}
+.right-content img{
+  margin-left: 1325px;
+  width: 26px;
+  height: 50px;
+  margin-top: -76px;
+  background-color: #F4F4F4;
+
 }
 .right-content a{
   font-family: brasley;
   font-size: 14px;
+  background-color: #F4F4F4;
+  margin-left: 1208px;
+  margin-top: -76px;
+
+}
+
+.header-content {
+  background-color: #F4F4F4;
 }
 

@@ -1,8 +1,68 @@
-div.brandguardian h1 {
-    font-family: bison;
-    color: #98C7BC;
+#id1 img {
+    margin-left: 185px;
+    margin-top: 205.64px;
+    background-color: #FCFCFC;
 }
-div.brandguardian h2 {
+#id2 img {
+    margin-left: 185px;
+    margin-top: 90px;
+}
+#div1 {
+    background-color: #FCFCFC;
+    position: relative
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    background-color: #FCFCFC;
+
+}
+  
+  .row:after {
+    content: "";
+    display: fixed;
+    clear: both;
+}
+#seta img {
+    margin-top: 400px;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 400px;
+    margin-left: -6px;
+}
+#form {
+    background-color: #F4F4F4;
+    width: 50%;
+    
+}
+#form p {
+    background-color: #F4F4F4;
+    font-family: brasley-medium;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 400px;
+    
+}
+#form input {
+    background-color: #EBEBEB;
+    border: none;
+    width: 346px;
+    height: 30px;
+    margin-top: 40px;
+
+    
+}
+input::placeholder {
     font-family: bison;
-    color: #98C7BC;
+    font-size: 13px;
+}
+button {
+    background-color: #98C7BC;
+    font-family: bison;
+    font-size: 17px;
+    width: 64px;
+    height: 30px;
+    margin-left: 53%;
+
 }
