@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './EditUser.css'
 import '../components/Modal.css'
 import cadeado from '..//assets/images/cadeado.svg'
+import './w3.css'
 export default class EditUser extends Component {
     state = {show: false};
 
@@ -14,9 +15,9 @@ export default class EditUser extends Component {
 
   render() {
     return (
+        
         <section id="form-header">
             <div className="form-content">
-                <hr></hr>
                 <a href="/"> Voltar para painel</a>
                 <h1>Editar Usuário</h1>
             </div>
@@ -31,45 +32,63 @@ export default class EditUser extends Component {
             </div>
             <p class="a">Níveis de Acesso</p>
 
-            <div class="row" id="content-area">
-                <div class="column">
+            <div class="content-area">
+                <div class="w3-third">
                     <label for="check"/> Home
-                    <input class="apple-switch" id="check"type="checkbox"/>
+                    <input class="apple-switch"type="checkbox"/>
+                    <br></br>
                     <label for="check"> Essência da Marca </label>
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Princípios Criativos
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Tom de Voz
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Identidade Visual
                     <input class="apple-switch" type="checkbox"/>
                 </div>
-                <div class="column">
+                <div class="w3-third">
                     Logotipo
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Cores
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Tipografias
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Elementos Gráficos
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Estilo Fotográfico
                     <input class="apple-switch" type="checkbox"/>
-
                 </div>
-                <div class="column">
+                <div class="w3-third">
                     Iconografia
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Inspiração na prática
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Momentos de marca
                     <input class="apple-switch" type="checkbox"/>
+                    <br></br>
+
                     Arquitetura de Marca
                     <input class="apple-switch" type="checkbox"/>
                 </div>
-
             </div>
-            
             
 
             <footer className="content-footer">
